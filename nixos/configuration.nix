@@ -107,9 +107,9 @@
   libevdev
 ];
   
-  users.users.enzo = {
+  users.users.jager = {
     isNormalUser = true;
-    description = "Enzo";
+    description = "jager";
     extraGroups = [ "networkmanager" "wheel" "docker" ];
     packages = with pkgs; [
       firefox
