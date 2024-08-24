@@ -18,7 +18,7 @@
     extraConfig = ''
 
     # Monitor
-    monitor=DP-1,1920x1080@165,auto,1
+    monitor=HDMI-A,2560x1440@60,auto,1
 
     # Fix slow startup
     exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
@@ -29,7 +29,7 @@
     exec-once = hyprctl setcursor Bibata-Modern-Classic 24
     exec-once = dunst
 
-    source = /home/enzo/.config/hypr/colors
+    source = /home/jager/.config/hypr/colors
     exec = pkill waybar & sleep 0.5 && waybar
     exec-once = swww init & sleep 0.5 && exec wallpaper_random
     # exec-once = wallpaper_random
